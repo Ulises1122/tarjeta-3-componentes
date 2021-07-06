@@ -1,0 +1,105 @@
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+body{
+    width: auto;
+    background-color: hsl(0, 0%, 95%);
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+h5{
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 12px;
+}
+p{
+    display: block;
+    position: relative;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: left;
+    line-height: 1.7rem;
+    font-size: 0.9rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.contenedor{
+    display: block;
+    position: relative;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    top: 100px;
+}
+.tarjeta{
+    display: inline-block;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+}
+.naranja{
+    left: 0px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: hsl(31, 77%, 52%);
+}
+.cyan{
+    left: 300px;
+    background-color: hsl(184, 100%, 22%);
+}
+.verde{
+    left: 600px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: hsl(179, 100%, 13%);
+}
+.logo{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    top: 50px;
+}
+#sedan, #suv, #luxury{
+    display: block;
+    position: relative;
+    left: 40px;
+}
+.titulos{
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 40px;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+}
+.parrafos{
+    display: block;
+    position: relative;
+    top: 60px;
+    height: 150px;
+    width: 80%;
+    left: 40px;
+}
+.botones{
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    width: 140px;
+    height: 40px;
+    border: 2px hsl(0, 0%, 95%) solid;
+    border-radius: 40px;
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+#boton1{
+    color: hsl(31, 77%, 52%);
+}
+#boton2{
+    color: hsl(184, 100%, 22%);
+}
+#boton3{
+    color: hsl(179, 100%, 13%);
+}
+#boton1:active, #boton2:active, #boton3:active{
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+}
