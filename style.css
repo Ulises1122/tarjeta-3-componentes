@@ -3,6 +3,7 @@ font-family: 'Lexend Deca', sans-serif; */
 body{
     width: auto;
     background-color: hsl(0, 0%, 95%);
+    /* background-image: linear-gradient(to right, hsl(31, 77%, 52%), hsl(179, 100%, 13%)); */
 }
 h1{
     font-family: 'Big Shoulders Display', cursive;
@@ -29,7 +30,7 @@ p{
     width: 900px;
     height: 500px;
     margin: auto;
-    top: 100px;
+    top: 70px;
 }
 .tarjeta{
     display: inline-block;
@@ -52,9 +53,9 @@ p{
     background-color: hsl(179, 100%, 13%);
 }
 .logo{
-    display: inline-block;
+    display: block;
     position: relative;
-    width: 100%;
+    width: 60%;
     top: 50px;
 }
 #sedan, #suv, #luxury{
@@ -102,4 +103,39 @@ p{
 #boton1:active, #boton2:active, #boton3:active{
     color: hsl(0, 0%, 95%);
     background-color: transparent;
+}
+@media (max-width: 700px){
+    body{
+        height: 1550px;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .contenedor{
+        display: block;
+        position: relative;
+        width: 300px;
+        height: 1500px;
+        margin: auto;
+        top: 30px;
+    }
+    .tarjeta{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 500px;
+    }
+    .naranja{
+        border-radius: 10px 10px 0px 0px;
+        left: 0;
+    }
+    .cyan{
+        left: 0;
+        top: 500px;
+    }
+    .verde{
+        left: 0;
+        top: 1000px;
+        border-radius: 0px 0px 10px 10px;
+    }
 }
